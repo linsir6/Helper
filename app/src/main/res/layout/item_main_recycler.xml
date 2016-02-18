@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/ll_item_main_all"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_edit_userInfo_avatar_item"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="15dp"
+
+        android:layout_marginTop="5dp"
+
+        fresco:placeholderImage="@drawable/ahg"/>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:layout_alignBottom="@+id/sdv_edit_userInfo_avatar_item"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#706767"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/tv_item_main_username"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@id/sdv_edit_userInfo_avatar_item"
+        android:gravity="center_vertical"
+        android:paddingEnd="5dp"
+        android:text="18888888888888"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:id="@+id/id_message_name_"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignTop="@+id/sdv_edit_userInfo_avatar_item"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@id/sdv_edit_userInfo_avatar_item"
+        android:gravity="center_vertical"
+        android:text="linSir"
+        android:textSize="25sp"
+        />
+
+
+</RelativeLayout>

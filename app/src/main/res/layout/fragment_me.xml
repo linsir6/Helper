@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/bg_main_blue">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdv_edit_userInfo_avatar"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="33dp"
+            android:background="#888"
+            fresco:roundAsCircle="true"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"
+            android:src="@mipmap/fragment_me_user"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="90dp"
+            android:src="@mipmap/fragment_me_phone"/>
+
+        <TextView
+            android:id="@+id/fr_me_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="35dp"
+            android:text="计软小伙伴"
+            android:textColor="@color/bg_white"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/fr_me_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="95dp"
+            android:text="18304523113"
+            android:textColor="@color/bg_white"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/fr_me_code"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/bg_main_blue"
+            android:gravity="center"
+            android:text="发布任务数:10"
+            android:textColor="@color/bg_white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="140dp"
+            android:background="@color/bg_white"/>
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/bg_main_blue"
+            android:gravity="center"
+            android:text="完成任务数：10"
+            android:textColor="@color/bg_white"/>
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/fr_me_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:numColumns="3"
+        android:verticalSpacing="20dp"
+        />
+
+</LinearLayout>

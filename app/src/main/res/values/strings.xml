@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Helper</string>
+    <string name="text_choose_image">选择图片</string>
+    <string name="text_img_album">相册</string>
+    <string name="text_img_camera">相机</string>
+
+
+    <string-array name="fr_me_grid">
+        <item>更改密码</item>
+        <item>完善个人信息</item>
+        <item>意见反馈</item>
+        <item>分享推荐码</item>
+        <item>退出当前账号</item>
+    </string-array>
+
+
+</resources>

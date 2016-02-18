@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMain">#fb115eed</color>
+    <color name="main_color">#0ddcff</color>
+    <color name="bg_font_black">#1e1e1e</color>
+    <color name="bg_font_grey">#585858</color>
+    <color name="bg_image_grey">#bcbdc3</color>
+    <color name="bg_frame_grey">#dddddd</color>
+    <color name="bg_grey">#f4f4f4</color>
+    <color name="bg_main_blue">#28ccfc</color>
+    <color name="bg_blue">#94e7ff</color>
+    <color name="bg_share_blue">#78bcf4</color>
+    <color name="bg_clothes_orange">#ff4d0f</color>
+    <color name="bg_white">#ffffff</color>
+    <color name="bg_font_pale">#cccccc</color>
+    <color name="main_tab_pressed_textColor">#28ccfc</color>
+    <color name="bg_green">#5ecfba</color>
+    <color name="main_tab_normal_textColor">@android:color/darker_gray</color>
+    <color name="main_background">#eee</color>
+    <color name="blue_font">#28ccfc</color>
+    <color name="bg_pink">#FF725C</color>
+    <color name="bg_red">#FF5A3E</color>
+    <color name="material_purple_normal">#ba68c8</color>
+    <color name="material_purple_press">#6a1b9a</color>
+</resources>
