@@ -35,6 +35,7 @@ public abstract class BaseActivity extends FragmentActivity
     public void settitle(String text)
     {
         textView.setText(text);
+        textView.setText("it is ok");
     }
 
 
