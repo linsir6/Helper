@@ -96,7 +96,8 @@ public class AllTasks extends android.support.v4.app.Fragment
                 } else
                 {
                     AVObject post = new AVObject("tasks");
-                    post.put("userphone", userphone);
+                    
+                    post.put("userphone", "linSir");
                     post.put("title", title111);
                     post.put("id", id);
                     post.put("content", title222);
